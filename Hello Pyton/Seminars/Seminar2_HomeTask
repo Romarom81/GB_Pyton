@@ -45,8 +45,9 @@
 # 5.Реализуйте алгоритм перемешивания списка 
 # (shuffle использовать нельзя, другие методы из библиотеки random - можно).
 # import random
-# list = []
-# for i in range (10,1,100):
-#    list.append (random.randint(1,100))
-#    i+=1
-# print(list)
+# import random
+# sp = [1, 2, 3, 4, 5,6,7]
+# for i in range(len(sp)):
+#     k = random.randint(0, len(sp) - 1)
+# sp[i], sp[k] = sp[k], sp[i]
+# print(sp)
