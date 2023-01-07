@@ -36,10 +36,10 @@
 
 # Пример: k = 8
 
-k = 8
-fib = [0, 1]
-for i in range (2, k+1):
-    fib.append (fib[-1] + fib[-2])
-for i in range (k):
-    fib.insert ( 0, fib[1] - fib[0])
-print(fib)
+# k = 8
+# fib = [0, 1]
+# for i in range (2, k+1):
+#     fib.append (fib[-1] + fib[-2])
+# for i in range (k):
+#     fib.insert ( 0, fib[1] - fib[0])
+# print(fib)
