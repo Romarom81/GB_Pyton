@@ -4,7 +4,7 @@ conn = sqlite3.connect('List_personal.db')
 cursor = conn.cursor()
 
 def view_all(cursor):
-    cursor.execute('select * List_personal')
+    cursor.execute('select * from List_personal')
     results = cursor.fetchall()
     return results
 

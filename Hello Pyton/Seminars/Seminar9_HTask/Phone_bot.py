@@ -10,7 +10,7 @@ bot = Bot(bot_token)
 updater = Updater(bot_token, use_context=True)
 dispatcher = updater.dispatcher 
 
-conn = sqlite3.connect('List_personal.db')
+conn = sqlite3.connect('List_personal.db', check_same_thread=False) 
 cursor = conn.cursor()
 
 def start(update, context):
